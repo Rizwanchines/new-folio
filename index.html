@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -28,19 +29,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Servies</a>
+                            <a class="nav-link" aria-current="page" href="#Servies">Servies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Work</a>
+                            <a class="nav-link" href="#Work">Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#About">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Review</a>
+                            <a class="nav-link" href="#Review">Review</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#Contact">Contact</a>
                         </li>
 
                     </ul>
@@ -57,7 +58,7 @@
     </header>
     <main>
         <!-- hero -->
-        <section class="pt-5 container">
+        <section class="pt-5 container" data-aos="fade-up">
             <div
                 class="row row-cols-1 row-cols-md-2  container align-items-center text-center justify-content-center row-cols-1 row-cols-md-2">
                 <div class="col">
@@ -85,9 +86,9 @@
                 </div>
             </div>
         </section>
-        <section class="container mt-5 ">
-            <p class=" font-semibold" style="color: #ff6b2b;">WHAT I DO</p>
-            <h2 class="text-4xl font-bold">Services</h2>
+        <section class="container mt-5 " id="Servies">
+            <p class=" font-semibold" style="color: #ff6b2b;" data-aos="fade-up">WHAT I DO</p>
+            <h2 class="text-4xl font-bold" data-aos="fade-up">Services</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 my-5 align-content-center g-3">
 
                 <div class="col rounded-3">
@@ -150,11 +151,11 @@
                 </div>
             </div>
         </section>
-        <section class="container">
-            <p class=" font-semibold" style="color: #ff6b2b;">Portfolio</p>
-            <h2 class="text-4xl font-bold">Selected work</h2>
+        <section class="container" id="Work">
+            <p class=" font-semibold" style="color: #ff6b2b;" data-aos="fade-up">Portfolio</p>
+            <h2 class="text-4xl font-bold" data-aos="fade-up">Selected work</h2>
             <div class="row  row-cols-1 row-cols-md-2 row-cols-lg-2 mt-5">
-                <div class="col">
+                <div class="col" data-aos="fade-up">
                     <div class="bor">
                         <div class="card1" style="width: 100%;">
                             <img src="img/imgi_2_photo-1551650975-87deedd944c3.jpg" alt="">
@@ -193,7 +194,7 @@
 
                 </div>
                 <div class="col">
-                    <div class="bor" style="margin-bottom: 20px;">
+                    <div class="bor" style="margin-bottom: 20px;" data-aos="fade-up">
                         <div class="card2" style="width: 100%;">
                             <img src="img/imgi_3_photo-1460925895917-afdab827c52f.jpg" alt="">
                         </div>
@@ -213,7 +214,7 @@
                                     class="fa-solid fa-arrow-right"></i>
                         </div>
                     </div>
-                    <div class="col mt-4">
+                    <div class="col mt-4" data-aos="fade-up">
                         <div class="bor">
                             <div class="card2" style="width: 100%;">
                                 <img src="img/imgi_4_photo-1618005182384-a83a8bd57fbe.jpg" alt="">
@@ -239,20 +240,22 @@
             </div>
         </section>
 
-        <section class="container mt-5">
+        <section class="container mt-5" id="About">
             <div class="row row-cols-1 row-cols-md-2">
-                <div class="col">
+                <div class="col" data-aos="fade-up">
                     <div class="container overflow-hidden rounded-4 p-5 imgme"><img src="hhg.jpeg" alt=""></div>
                 </div>
 
-                <div class="col p-5">
+                <div class="col p-5" data-aos="fade-up">
                     <p class=" font-semibold" style="color: #ff6b2b;">About ME</p>
                     <h2 class="text-4xl font-bold">A bit about <br>
                         who I am</h2>
-                    <p class="p">I'm Rizwan, a freelance designer and frontend developer based in Paris with 5 years of experience
+                    <p class="p">I'm Rizwan, a freelance designer and frontend developer based in Paris with 5 years of
+                        experience
                         shipping digital products for startups, agencies, and scale-ups across Europe. I thrive at the
                         intersection of great design and clean code.</p>
-                    <p class="p">I believe great interfaces are invisible — they get out of the user's way. My work is fast,
+                    <p class="p">I believe great interfaces are invisible — they get out of the user's way. My work is
+                        fast,
                         accessible and built to last. When I'm not coding, you'll find me hiking or hunting for a good
                         espresso.</p>
                     <p>Stack & tools</p>
@@ -262,36 +265,255 @@
                         <a class="aa5" href="#">
                             Figma</a>
                         <a class="aa5" href="#">HTML / CSS</a>
-                        
+
                     </div>
-                    <div class="btn4">  <a class="aa5" href="#">Symfony</a>
+                    <div class="btn4"> <a class="aa5" href="#">Symfony</a>
                         <a class="aa5" href="#">Framer</a>
                         <a class="aa5" href="#">JavaScript</a>
-                        <a class="aa5" href="#">Webflow</a></div>
+                        <a class="aa5" href="#">Webflow</a>
+                    </div>
 
                 </div>
             </div>
 
         </section>
-        <section class="container">
-               <p class=" font-semibold" style="color: #ff6b2b;">Social proof</p>
-            <h2 class="text-4xl font-bold">What clients say</h2>
-            <div class="row">
-<div class="col"></div>
+        <section class="container mt-5" id="Review">
+            <p class=" font-semibold" style="color: #ff6b2b;margin-top: 20px;" data-aos="fade-up">Social proof</p>
+            <h1 class="text-4xl font-bold mb-5" data-aos="fade-up">What clients say</h1>
+            <div class="row mb-3 mt-5 row-cols-1 row-gap-md-2 row-cols-lg-3">
+                <div class="col" data-aos="fade-up">
+                    <div class="card card3 border-0" style="background-color: #f7fdfd;">
+
+
+                        <h6 class="card-subtitle mb-2 text-body-secondary"><i
+                                class="fa-solid fa-star text-warning"></i><i
+                                class="fa-solid fa-star text-warning"></i><i
+                                class="fa-solid fa-star text-warning"></i><i
+                                class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
+                        </h6>
+                        <p class="card-text">"Rizwan delivered our redesign in record time and the quality blew us
+                            away. Our conversion rate jumped 28% in the first month. Absolutely recommend."</p>
+                        <div style="padding: 0;margin: 0;">
+                            <div class=" d-flex align-content-center text-center w-75">
+                                <div><img style="border-radius: 50%; " src="client/1.jpg" alt=""></div>
+                                <div class="p-0 m-0">
+                                    <h6>Sarah Müller</h6>
+                                    <p>CPO, Novu</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col" data-aos="fade-up">
+                    <div class="card border-0 card3 " style="background-color: #000000; color: white;">
+
+
+                        <h6 class="card-subtitle mb-2 text-body-secondary"><i
+                                class="fa-solid fa-star text-warning"></i><i
+                                class="fa-solid fa-star text-warning"></i><i
+                                class="fa-solid fa-star text-warning"></i><i
+                                class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
+                        </h6>
+                        <p class="card-text">"Working with Rizwan is a dream. He asks the right questions, moves
+                            fast, and the final result always exceeds what we imagined. Our best hire of 2024."</p>
+                        <div>
+                            <div class="rou d-flex">
+                                <div><img style="border-radius: 50%;" src="client/2.jpg" alt=""></div>
+                                <div>
+                                    <h6>Thomas Renault</h6>
+                                    <p>Founder, Finlo</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="col" data-aos="fade-up">
+                    <div class="card border-0 card3" style="background-color: #f7fdfd;">
+
+
+                        <h6 class="card-subtitle mb-2 text-body-secondary"><i
+                                class="fa-solid fa-star text-warning"></i><i
+                                class="fa-solid fa-star text-warning"></i><i
+                                class="fa-solid fa-star text-warning"></i><i
+                                class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
+                        </h6>
+                        <p class="card-text">"We had a tight deadline and a vague brief. Rizwan turned both into a
+                            polished site in under two weeks. Clean code, zero hand-holding needed."</p>
+                        <div>
+                            <div class="rou d-flex">
+                                <div><img style="border-radius: 50%;" src="client/3.jpg" alt=""></div>
+                                <div>
+                                    <h6>Camille Dufresne</h6>
+                                    <p>Creative Director, Orea</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
         </section>
+        <section class="container sec1 mb-5">
+            <p class=" font-semibold" style="color: #ff6b2b;margin-top: 20px;" data-aos="fade-up">Thoughts</p>
+            <div class="sec" data-aos="fade-up">
+                <h1>From the blog</h1>
+                <a href="#">All articles →</a>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col" data-aos="fade-up">
+                    <div class="card card4" style="width: 22rem;">
+                        <img src="img/21.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d2">
+                                <a class="a1" href="#">Design</a>
+                                <a href="#">Mar 8, 2025</a>
+                            </div>
+                            <div class="hev">Why I ditched heavy CSS frameworks for Tailwind — and what changed
+                            </div>
+                            <p class="card-text">After years of fighting specificity wars, here's what finally convinced
+                                me to make the switch.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col" data-aos="fade-up">
+                    <div class="card card4" style="width: 22rem;">
+                        <img src="img/22.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d2">
+                                <a class="a1" href="#">Dev</a>
+                                <a href="#">Feb 21, 2025</a>
+                            </div>
+                            <div class="hev">Building a design system from scratch in a weekend
+                            </div>
+                            <p class="card-text">Tokens, components, docs — the process I follow to spin up a coherent
+                                system in 48 hours.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col" data-aos="fade-up">
+                    <div class="card card4" style="width: 22rem;">
+                        <img src="img/23.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d2">
+                                <a class="a1" href="#">Freelance</a>
+                                <a href="#">Jan 14, 2025</a>
+                            </div>
+                            <div class="hev">5 lessons from my first year of full-time freelancing
+                            </div>
+                            <p class="card-text">Contracts, pricing, scope creep — <br> the things nobody tells you
+                                before
+                                you go solo.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section>
+
+
+            </section>
+
+
+
+            <section class="container sss" id="Contact">
+                <div class="back row row-cols-1 row-cols-md-2">
+                    <div class="col" data-aos="fade-up">
+
+                        <div class="text-light man">
+                            <p class=" font-semibold" style="color: #ff6b2b;margin-top: 20px;">Get in touch</p>
+                            <div class="sec text-light mb-3">
+                                <h1>Let's work <br>
+                                    together</h1>
+
+                            </div>
+                            <p class="mb-3 pp">I'm open to UI/UX and frontend missions, short or long-term. Landing
+                                page, full product
+                                redesign, or just a second pair of eyes — let's talk.
+
+                            </p>
+                            <div class="di mt-4">
+                                <ul>
+                                    <li><a href="" class="d-flex"><i
+                                                class="fa-solid fa-envelope text-light"></i>rrizochines7@gmail.com</a>
+                                    </li>
+                                    <li><a href="https://www.linkedin.com/in/rrizochines-rrizochines-428583417/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7RPV760ZS4mL%2BOdbyEuFbg%3D%3D"
+                                            class="d-flex"><i
+                                                class="fa-brands fa-linkedin-in text-light"></i>rrizochines
+                                            rrizochines</a>
+                                    </li>
+                                    <li><a href="" class="d-flex"><i
+                                                class="fa-brands fa-github text-light"></i>rrizochines7@gmail.com</a>
+                                    </li>
+
+                                </ul>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="col align-content-center " data-aos="fade-up">
+
+                        <div class="d-flex justify-content-between pe-4">
+
+                            <div class="text-light">Name <br><input type="text" value="Name" placeholder="Rizwan"
+                                     style=" background-color: #5f5a5a; color: #8f8c8c; border: 1px solid rgb(255, 255, 255); border-radius: 10px; padding: 5px 15px;"></div>
+                            <div class="text-light">Email <br> <input type="email" name="Email" id="" placeholder="rrizochines7@gmail.com"
+                                    style=" background-color: #5f5a5a; border: 1px solid rgb(255, 255, 255); border-radius: 10px; padding: 5px 15px;"></div>
+                        </div>
+                        <div>
+                            <div class="text-light">
+                                Subject <br>
+                                <input type="text" name="Project inquiry" placeholder="Project inquiry" size="50" style="color: #918f8f; background-color: #5f5a5a; border: 1px solid rgb(255, 255, 255); border-radius: 10px; padding: 5px 30px;">
+                            </div>
+                        </div>
+
+
+                        <div class="text-light mt-5 mb-5">
+                                Massage* <br>
+                                <input type="text" name="Tell me about yor projrct ....." placeholder="Tell me about your project ..." size="50" style="  color: #918f8f; background-color: #5f5a5a; border: 1px solid rgb(255, 255, 255); border-radius: 10px; padding: 5px 30px;">
+                            </div>
+
+                            <div class="dl"><a class="al" href="#">Send massage<i class="fa-solid fa-arrow-right"></i></a></div>
+                    </div>
+                </div>
+
+            </section>
     </main>
 
-
+<footer>
+    <div class="d-flex justify-content-between align-content-center text-center ps-5 pe-5 mt-4">
+        <div><p>© Rizwan. All rights reserved.</p> Developed by Laurent Begey • Distributed by ThemeWagon</div>
+        <div>Built with Tailwind CSS & Alpine.js</div>
+    </div>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+  AOS.init();
+</script>
+
 </body>
 
 </html>
-
-<!-- this is for testing perpose -->
-
-<!-- this is my main commit  -->
